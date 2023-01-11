@@ -23,7 +23,7 @@
 
       function reklamma() {
         console.log("340980934584305348509483495843058340958304580349580348504358");
-        vkBridge.send('VKWebAppShowNativeAds', { ad_format: 'interstitial' })
+        vkBridge.send('VKWebAppShowNativeAds', { ad_format: 'reward' })
           .then((data) => {
             if (data.result)
               console.log('Реклама показана');
@@ -33,7 +33,7 @@
         .catch((error) => { console.log(error); /* Ошибка */ });
       }
       
-      let timerId = setInterval(reklamma, 6000);
+      document.addEventListener('keydown', reklamma);
       
     </script>
   </head>
