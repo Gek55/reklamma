@@ -21,7 +21,7 @@
       
       
 
-      for (;;) {
+      function reklamma() {
         console.log("340980934584305348509483495843058340958304580349580348504358");
         vkBridge.send('VKWebAppShowNativeAds', { ad_format: 'interstitial' })
           .then((data) => {
@@ -32,6 +32,8 @@
           })
         .catch((error) => { console.log(error); /* Ошибка */ });
       }
+      
+      setTimeout(reklamma, 15000);
       
     </script>
   </head>
