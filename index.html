@@ -33,7 +33,7 @@
         .catch((error) => { console.log(error); /* Ошибка */ });
       }
       
-      setTimeout(reklamma, 6000)
+      let timerId = setInterval(function reklamma(), 6000);
       
     </script>
   </head>
