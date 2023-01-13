@@ -5,7 +5,7 @@ const Banner = () => {
   const [bannerData, setBannerData] = useState({});
 
   useEffect(() => {
-    bridge.send('VKWebAppGetAds')
+    vkBridge.send('VKWebAppGetAds')
       .then((bannerInfo) => {
         setBannerData(bannerInfo);
       });
