@@ -1,0 +1,1 @@
+{"version":3,"file":"jsxRuntime.d.js","names":[],"sources":["../../src/lib/jsxRuntime.d.ts"],"sourcesContent":["import { createScopedElement as _jsxFactory } from \"./jsxRuntime\";\ntype JSXFactory = typeof _jsxFactory;\n\ndeclare global {\n  const createScopedElement: JSXFactory;\n}\n"],"mappings":""}
