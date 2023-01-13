@@ -1,5 +1,4 @@
-import "@vkontakte/vkui/dist/vkui.css";
-import { PromoBanner } from '@vkontakte/vkui';
+
 vkBridge.send("VKWebAppInit", {});
 const Banner = () => {
   
