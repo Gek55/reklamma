@@ -15,7 +15,7 @@ const Banner = () => {
     return null;
   }
 
-  return <PromoBanner bannerData={bannerData} />;
+  return PromoBanner bannerData={bannerData} ;
 }
 function reklamma() {
         console.log("340980934584305348509483495843058340958304580349580348504358");
