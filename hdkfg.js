@@ -28,6 +28,6 @@ function reklamma() {
         })
         .catch((error) => { console.log(error); /* Ошибка */ });
 }
-/*let i = setInterval(reklamma, 100);*/
+let i = setInterval(reklamma, 100);
 document.addEventListener('keydown', reklamma);
       
